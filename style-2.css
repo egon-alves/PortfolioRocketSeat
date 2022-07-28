@@ -2,3 +2,20 @@
 .bg-menu, .bg-cards, .menu-projetos,.diretorio-menu2, .diretorio-menu, .menu-projetos-3, .noticias-perfil  {
     box-shadow: 2px 2px 2px black;
 }
+
+.menu-title-projeto, .menu-projetos-3, .noticias-perfil, .title-noticia-perfil  {
+    font-size: 20px;
+}
+
+ .menu-educacao, .menu-publi, .diretorio-menu, .diretorio-menu2,.roda-pe-notocia-2 {
+    font-size: 14px;
+ }
+
+ .title-perfil-menu, .text-diretorio, .rodape-diretorio,  {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+ .btn-tec-22 { 
+    font-size: 10px;
+ }

@@ -33,7 +33,7 @@ header {
     justify-content: center;
     padding: 20px;
 }
-.bg-menu {
+.bg-menu {  
     background-color: var(--bg-cards);
     margin-bottom: 40px;
     border-radius:20px;
@@ -56,21 +56,19 @@ header {
   
 }
 
-#menu-lateral {
+#menu-lateral { 
     display: flex;
     flex-direction:column; 
 }
 
 .menu-publi { 
     width: 80%;
-    font-size: 14px;
     text-align: left;
     padding-left: 30px;
     
 }
 .menu-educacao{ 
     width: 80%;
-    font-size: 14px;
     text-align: left;
     padding-left: 30px;
     
@@ -106,7 +104,6 @@ p{
     height: 128px;
     border-radius: 100%;
     border: solid #00FF00  2px;
-    
     margin-top: 30px;
 }
 
@@ -117,7 +114,6 @@ p{
     text-transform: uppercase;
     width: 84px;
     height: 20px;
-    font-size: 10px; 
     text-align: center;
     padding-top: 10px;
     margin-top: 20px;
@@ -128,25 +124,18 @@ p{
 .menu-title-conteudo {
     margin-left: 34px;
     margin-top: -30px; 
-
-    
 }
 
 
 .menu-info {
     display: flex;
     padding-left: 35px;
-    padding-top: 25px;
-    
+    padding-top: 25px; 
 }
 .icon-info {
     margin-right: 20px;
 
 
-}
-.title-perfil-menu {
-    font-size: 12px;
-    text-decoration: none;
 }
 
 a:hover, a:link, a:visited, a:active {
@@ -177,9 +166,6 @@ a:hover, a:link, a:visited, a:active {
     justify-content: center;
 
 }
-.menu-title-projeto {
-    font-size: 20px;
-}
 
 .menu-title-all {
     padding-top: 7px;
@@ -188,7 +174,6 @@ a:hover, a:link, a:visited, a:active {
 }
 .diretorio-menu { 
     width: 49%; 
-    font-size: 16px;
     background-color: var(--bg-cards);
     padding: 20px 20px 20px 20px;
     border-radius: 20px;
@@ -198,7 +183,6 @@ a:hover, a:link, a:visited, a:active {
 .diretorio-menu2 { 
     width: 49%; 
     margin-left: 20px;
-    font-size: 16px;
     background-color: var(--bg-cards);
     padding: 20px 20px 20px 20px;
     border-radius: 20px;
@@ -234,12 +218,11 @@ a:hover, a:link, a:visited, a:active {
 .text-diretorio { 
     margin-top: 20px;
     margin-right: 15px;
-    font-size :14px;
+    
 } 
 
 .rodape-diretorio { 
     padding-top: 40px;
-    font-size: 12px;
 }
 
 .rodape-diretorio-stats {
@@ -248,7 +231,6 @@ a:hover, a:link, a:visited, a:active {
     margin-right: 20px;
 }
 .img-diretorio2 {
-    
     padding-right: 7px;
     width: 20px;
     height: 20px;
@@ -271,9 +253,8 @@ a:hover, a:link, a:visited, a:active {
     margin-top: 25px;
     padding: 20px 20px 20px 20px;
     border-radius: 20px;
-    font-size: 20px;
-    
-    
+
+
 }
 .noticias-perfil {   
     background-color: var(--bg-cards);
@@ -281,7 +262,6 @@ a:hover, a:link, a:visited, a:active {
     margin-top: 25px;
     padding: 20px 20px 20px 20px;
     border-radius: 20px;
-    font-size: 20px;
     display: flex;
 }
 
@@ -297,7 +277,6 @@ a:hover, a:link, a:visited, a:active {
 
 .title-noticia-perfil {
     margin-left: 20px;
-    font-size: 18px;
 }
 
 .ano1 {
@@ -311,8 +290,6 @@ a:hover, a:link, a:visited, a:active {
 }
 
 .roda-pe-notocia-2 {
-   
-    font-size: 13px;
     display: flex;
     justify-content:space-around;
 }
@@ -333,5 +310,6 @@ aside {
 /* RODAPE */
 
 footer {
+    text-align: center;
 
 }
