@@ -22,7 +22,17 @@ body {
     background-color: var(--body-bg-color);
     font-family: 'Merriweather Sans';
     color: var(--text-color);
+    fill:var(--text-color);
+    text-decoration: none;
 }
+
+a:active, a:focus, a:hover, a:link {
+    
+    color: var(--text-color);
+    
+}
+
+
 .container { 
     
 }
@@ -30,15 +40,27 @@ body {
     
 }
 
+.bg-teck {
+    background-color: var(--bg-techs);
+    color: var(--body-bg-color);
+    border-radius: 30px;
+    text-transform: uppercase;
+    padding-top: 4px;
+    height:24px ;
+    width: 85px;
+    
+}
+
 .bg-cards { 
     background-color: var(--bg-cards);
     border-radius: 10px;
     box-shadow: 2px 2px 2px black;
+   
 }
 
 .font-1 {
     font-weight: 400;
-    font-size: 10px;
+    font-size: 12px;
 }
 .font-2 {
     font-weight: 500;
@@ -53,34 +75,55 @@ body {
 
 
 
+.icon1 {
+    fill:var(--text-color);
+ }
 
+ .maps {
+    
+}
 
+.mt-n1 {
+   margin-top: -.9rem !important;
+ }
+ .mt-n2 {
+   margin-top: -1.1rem !important;
+ }
 
 
  /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
-    .margin1  {
-      
+    body {
+        
     }
+ 
  }
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
-    .margin2{
-        margin: 20px;
+    body {
+        
     }
- }
+}
+  
 
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
-    .margin3 {
-        margin: 20px;
-    }
+body {
+    
+
 }
+}
+
+
 
 /* // Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) { 
-    .margin4 {
-        margin: 20px;
+    body {
+        
     }
+
+    
  }
+ @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
