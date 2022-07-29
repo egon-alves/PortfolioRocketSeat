@@ -115,12 +115,7 @@ body {
     
     
 }
-.pd-larg {
-    padding-left: 20px {
-        background-attachment: fixed;
-    }
 
-}
 
 
 
@@ -130,9 +125,7 @@ body {
         background: red;
     }
 
-    .pd-larg {
-        padding-left: 20px
-    }
+    .pd-larg {}
 
     
  }
