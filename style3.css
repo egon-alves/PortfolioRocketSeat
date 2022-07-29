@@ -1,0 +1,86 @@
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+  }
+
+
+
+.mcd { 
+    background-color: rgba(128, 128, 128, 0.199);
+    border: .1px solid red;
+}
+
+.ctn {
+    background-color: blue;
+}
+
+/* campo pra edicação  */
+
+body {
+    background-color: var(--body-bg-color);
+    font-family: 'Merriweather Sans';
+    color: var(--text-color);
+}
+.container { 
+    
+}
+.border1 {
+    
+}
+
+.bg-cards { 
+    background-color: var(--bg-cards);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.font-1 {
+    font-weight: 400;
+    font-size: 10px;
+}
+.font-2 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.font-3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .margin1  {
+      
+    }
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .margin2{
+        margin: 20px;
+    }
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .margin3 {
+        margin: 20px;
+    }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .margin4 {
+        margin: 20px;
+    }
+ }
