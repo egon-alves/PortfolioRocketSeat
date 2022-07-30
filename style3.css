@@ -24,8 +24,8 @@ body {
     background-color: var(--body-bg-color);
     font-family: 'Merriweather Sans';
     color: var(--text-color);
-    fill:var(--text-color);
-    text-decoration: none;
+    
+    
 }
 
 a:active, a:focus, a:hover, a:link {
