@@ -119,7 +119,7 @@ a:hover {
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 	.container {
-       border: red solid 1px;
+       
     }
     .data-1 {
         padding-top: 44px !important;

@@ -4,9 +4,7 @@
     --bg-cards: #302F3D;
     --bg-techs: #CB92B1;
   }
-div {
-    color: red !important;
-}
+
 body { 
     background-color: var(--body-bg-color);
     color: var(--text-color);
