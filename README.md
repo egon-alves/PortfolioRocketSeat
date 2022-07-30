@@ -1,4 +1,4 @@
-Existe 2 portifolios
+Existe 2 portfolios
 
 V1- é um projeto nao responsivel, não utilizei o framework Bootstrap, fiz todos os estilos no CSS. </br> 
 
