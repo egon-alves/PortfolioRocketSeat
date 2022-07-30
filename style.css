@@ -18,6 +18,13 @@ header {
     height: 30px;
 }
 
+.btn-2 {
+    background: var(--bg-cards);
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
 #login {
     width: 100px;
     background-color: var(--bg-cards);
