@@ -117,7 +117,7 @@ a:active, a:focus, a:hover, a:link {
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 	.container {
-       
+       border: red solid 1px;
     }
     .data-1 {
         padding-top: 44px !important;
@@ -130,6 +130,7 @@ a:active, a:focus, a:hover, a:link {
        
         padding-top: 44px !important;
     }
+    
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -138,6 +139,9 @@ a:active, a:focus, a:hover, a:link {
         
         padding-top: 44px !important;
     }
+    .container {
+        border: red solid 1px;
+     }
 }
 
 
