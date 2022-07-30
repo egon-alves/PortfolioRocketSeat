@@ -7,8 +7,6 @@
    
   }
 
-
-
 .mcd { 
     background-color: rgba(128, 128, 128, 0.199);
     border: .1px solid red;
@@ -28,10 +26,14 @@ body {
     
 }
 
-a:active, a:focus, a:hover, a:link {
-    
+a { 
     color: var(--text-color);
-    
+    text-decoration: none;
+}
+
+a:hover { 
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 .img-perfil {
@@ -140,7 +142,7 @@ a:active, a:focus, a:hover, a:link {
         padding-top: 44px !important;
     }
     .container {
-        border: red solid 1px;
+        
      }
 }
 
